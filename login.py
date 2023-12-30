@@ -21,8 +21,7 @@ Label(window, text="Dept. of Computer Science &", font=("Times new roman", 20, "
       fg="white", bg="black").place(x=480, y=280)
 Label(window, text="Application Library", font=("Times new roman", 20, "italic"),
       fg="white", bg="black").place(x=660, y=330)
-"""Label(window, text="Mr. K. Abdul Ahed", font=("Times new roman", 15, "italic"),
-      fg="white", bg="black").place(x=100,  y=320)"""
+
 button = Button(window, text="Get Started!", font=("Times new roman", 15, "italic"),
                 width=27, command=next).place(x=520, y=400)
 Label(window, text="Developed by:Sufiyan", font=("Times new roman", 15, "italic"),
